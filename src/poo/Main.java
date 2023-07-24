@@ -21,15 +21,19 @@ public class Main {
         System.out.println("Nome: " + pessoas[0].getName());
         System.out.println("Idade: " + pessoas[0].getAge());
         System.out.println("Cidade: " + pessoas[0].getCity());
+
         System.out.println("\nNome: " + pessoas[1].getName());
         System.out.println("Idade: " + pessoas[1].getAge());
         System.out.println("Cidade: " + pessoas[1].getCity());
+
         System.out.println("\nNome: " + pessoas[2].getName());
         System.out.println("Idade: " + pessoas[2].getAge());
         System.out.println("Cidade: " + pessoas[2].getCity());
+
         System.out.println("\nNome: " + pessoas[3].getName());
         System.out.println("Idade: " + pessoas[3].getAge());
         System.out.println("Cidade: " + pessoas[3].getCity());
+        
         System.out.println("\nNome: " + pessoas[4].getName());
         System.out.println("Idade: " + pessoas[4].getAge());
         System.out.println("Cidade: " + pessoas[4].getCity());
