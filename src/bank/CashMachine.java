@@ -31,7 +31,7 @@ public class CashMachine {
             ContaBancaria account = new ContaBancaria(balance);
             if(account.withdraw(withdrawValue)){
                 balance = account.getBalance();
-                System.out.printf("Saque realizado com sucesso. Seu novo saldo e: R$%.2f\n", balance);
+                System.out.printf("Seu novo saldo e: R$%.2f\n", balance);
             }else{
                 System.out.println("Saldo insuficiente para realizar o saque.");
             }
